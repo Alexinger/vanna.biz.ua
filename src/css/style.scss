@@ -1,0 +1,124 @@
+body {
+  // position: relative;
+  // background-image: url(/src/images/bg-vanna.jpg);
+  background-color: #b7b7b7;
+  // background-repeat-y: no-repeat;
+  // background-attachment: fixed;
+  // background-blend-mode: hue;
+}
+
+form {
+  padding: 20px;
+  min-width: 300px;
+}
+a#myModal{
+  outline: none;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.my-nav {
+  a.nav-link:not(.active):hover {
+    border: 1px solid white;
+    margin: -1px;
+  }
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+  transition: 300ms;
+}
+
+.card-img-top {
+  max-height: 15rem;
+}
+
+.card-restavrator, .card-restavrator-order, .card-vanna-v-vanna, .card-vanna-v-vanna-order {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 23rem;
+  min-width: 15rem;
+  border: 1px solid #d8d8d8;
+.card-block{
+  margin-top: 15px;
+  h5{
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+}
+}
+
+.card-text {
+  border-radius: 5px;
+}
+
+button {
+  &.navbar-toggler {
+    position: static;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1.text-header {
+  text-transform: uppercase;
+  line-height: 60px;
+  font-weight: 700;
+  color: #2c2e33;
+  text-shadow: 1px 1px 1px #ffffff;
+  font-family: serif;
+}
+h5 a{
+    text-decoration: none;
+    &:hover,&:focus{
+      text-decoration: none;
+    }
+    &:not(.collapsed){
+      text-decoration: none;
+      color: black !important;
+    }
+}
+
+.btn-back, .btn-vanna-back {
+  cursor: pointer;
+}
+
+.tab-pane {
+  font-family: serif;
+  font-size: 20px;
+}
+.footer-fixed{
+  padding-left: 6px;
+  padding-top: 5px;
+  position: fixed;
+  left: 30px;
+  bottom: 40px;
+  width: 44px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #0275d8;
+  .footer-back {
+    cursor: pointer;
+  }
+}
+
+#accordion {
+  .card-header{
+    background: #96caff;
+  }
+}
+.modal-backdrop{
+  position: relative;
+}
+.modal-dialog{
+  margin-top: 20%;
+}
